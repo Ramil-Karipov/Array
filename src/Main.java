@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задача 1");
@@ -36,16 +38,16 @@ public class Main {
         System.out.print(weight1[0]);
         System.out.println();
         System.out.println("Задача 4");
-        int [] year2 = new int [3];
-        year2 [0] = 1;
-        int yearA2 = year1 [0];
-        year2 [1] = 2;
-        int yearB2 = year1 [1];
-        year2 [2] = 3;
-        int yearC2 = year1 [2];
-        System.out.print(year2[2] + ", ");
-        System.out.print(year2[1]  + ", ");
-        System.out.print(year2[0]);
+        int [] year2 = {1, 2, 3};
+        for (int i = 0; i < year2.length ; i++) {
+            System.out.println(year2[i]);
+            if (year2[i]%2 != 0); {
+                year2[i] ++;
+                System.out.println(Arrays.toString(year2));
+            }
+
+            
+        }
 
 
 
