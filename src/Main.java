@@ -40,10 +40,9 @@ public class Main {
         System.out.println("Задача 4");
         int [] year2 = {1, 2, 3};
         for (int i = 0; i < year2.length ; i++) {
-            System.out.println(year2[i]);
             if (year2[i]%2 != 0); {
-                year2[i] ++;
-                System.out.println(Arrays.toString(year2));
+                year2[i] += 1;
+                System.out.print(year2[i] + " ");
             }
 
             
