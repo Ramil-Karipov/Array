@@ -3,16 +3,13 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задача 1");
-    int [] year = new int [3];
-    year [0] = 1;
-    int yearA = year [0];
-    year [1] = 2;
-    int yearB = year [1];
-    year [2] = 3;
-    int yearC = year [2];
-        System.out.print(year[0] + ", ");
-        System.out.print(year[1]  + ", ");
-        System.out.print(year[2]);
+    int [] year = new int [12];
+        year [0] = 1;
+        year [1] = 2;
+        year [2] = 3;
+        for (int i = 0; i < 12; i++) {
+            System.out.print(year[i] + " ");
+        }
         System.out.println();
         System.out.println("Задача 2");
         double [] weight = {1.57, 7.654, 9.986};
