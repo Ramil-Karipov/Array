@@ -13,6 +13,7 @@ public class Main {
         System.out.println();
         System.out.println("Задача 2");
         double [] weight = {1.57, 7.654, 9.986};
+        System.out.println(Arrays.toString(weight));
         System.out.print(weight[0]+ ", ");
         System.out.print(weight[1]+ ", ");
         System.out.print(weight[2]);
@@ -30,6 +31,7 @@ public class Main {
         System.out.print(year1[0]);
         System.out.println();
         double [] weight1 = {1.57, 7.654, 9.986};
+        System.out.println(Arrays.toString(weight1));
         System.out.print(weight1[2]+ ", ");
         System.out.print(weight1[1]+ ", ");
         System.out.print(weight1[0]);
